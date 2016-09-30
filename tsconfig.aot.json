@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "pretty": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitUseStrict": false,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "./dist/unbundled",
+    "rootDir": "./src/app",
+    "types": [
+      "node"
+    ]
+  },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ],
+  "angularCompilerOptions": {
+   "genDir": "aot",
+   "skipMetadataEmit" : true,
+   "debug": true,
+    "trace": true
+ },
+  "compileOnSave": false,
+  "files": [
+    "src/app/app.module.ts"
+  ]
+
+}
